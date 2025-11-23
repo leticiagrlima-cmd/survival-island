@@ -1,19 +1,6 @@
 # survival-island
 Mini game em C — simulação de sobrevivência para o trabalho da disciplina.
 
-Instruções:
-    Compilar: gcc -o survival_survival_island survival_island.c
-    Executar: ./survival_survival_island
-
-  Funcionalidades:
-    - Inventário (array) com itens (food, weapon, tool)
-    - Lista encadeada para comparação
-    - Selection Sort (nome, tipo+prioridade, prioridade)
-    - Busca binária (requer ordenação por nome)
-    - Explorar (esquerda/direita) para encontrar itens
-    - Tentativa de construir Torre de Fuga com critérios demonstrativos
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
